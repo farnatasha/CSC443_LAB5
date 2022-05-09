@@ -13,18 +13,18 @@
    // shortest days 
    echo " the number of days in the shortest month :";
 $min = min(array_values($monthDays));
-print_r($min);
+echo ($min);
 echo "<br>";
 echo "<br>";
 echo "prints the name of the shortest month :";
 $min_month = array_search ($min, $monthDays);
-print_r($min_month);
+echo ($min_month);
 
 $sum = array_sum(array_values($monthDays));
 echo "<br>";
 echo "<br>";
 echo "total number of days in a year: "
-print_r($sum);
+echo ($sum);
 
 
 ?>
