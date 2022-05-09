@@ -20,6 +20,7 @@ echo "\n";
 
     }
     foreach ($month as $item) {
+        echo "<br>";
         echo $item;
         echo "<br>";
     }
