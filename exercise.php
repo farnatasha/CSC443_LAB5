@@ -21,8 +21,11 @@ $min_month = array_search ($min, $monthDays);
 print_r($min_month);
 
 $sum = array_sum(array_values($monthDays));
+echo "<br>";
+echo "<br>";
 print_r($sum);
 echo ",";
+
 ?>
 </body>
 </html>
