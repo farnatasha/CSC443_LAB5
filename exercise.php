@@ -23,7 +23,7 @@ echo ($min_month);
 $sum = array_sum(array_values($monthDays));
 echo "<br>";
 echo "<br>";
-echo "total number of days in a year: "
+echo "total number of days in a year: ";
 echo ($sum);
 
 
