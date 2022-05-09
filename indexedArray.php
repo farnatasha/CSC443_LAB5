@@ -18,6 +18,10 @@
 echo "\n";
 
     }
+    foreach ($month as $item) {
+        echo $item;
+        echo "<br>";
+    }
     ?>
 </body>
 </html>
