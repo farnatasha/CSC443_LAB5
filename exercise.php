@@ -24,7 +24,7 @@ $sum = array_sum(array_values($monthDays));
 echo "<br>";
 echo "<br>";
 print_r($sum);
-echo ",";
+
 
 ?>
 </body>
