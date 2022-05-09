@@ -16,7 +16,7 @@
         echo $month[$i];
         
 
-echo "\n";
+
 
     }
     foreach ($month as $item) {
