@@ -15,6 +15,11 @@
 $min = min(array_values($monthDays));
 print_r($min);
 echo "<br>";
-    }
+echo "<br>";
+echo "MONTH HAVING MINIMUM DAYS :";
+$min_month = array_search ($min, $monthDays);
+print_r($min_month);
+
+?>
 </body>
 </html>
