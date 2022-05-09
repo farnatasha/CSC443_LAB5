@@ -14,9 +14,7 @@
     for($i=0; $i<=11;$i++) {
         sort ($month);
         echo $month[$i] . " , ";
-        
-
-
+    
 
     }
     foreach ($month as $item) {
