@@ -20,6 +20,9 @@ echo "MONTH HAVING MINIMUM DAYS :";
 $min_month = array_search ($min, $monthDays);
 print_r($min_month);
 
+$sum = array_sum(array_values($monthDays));
+print_r($sum);
+echo ",";
 ?>
 </body>
 </html>
