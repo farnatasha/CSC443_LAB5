@@ -11,12 +11,12 @@
     $monthDays = array ('Splorch' => 23, 'Sploo' => 28,  'Splat' => 2, 'Splatt' => 3,  'Spleen' => 44, 'Splune' => 30,   'Spling' => 61, 'Slendo' => 61, 'Sploctember' => 31, 'Splictember' => 31, 
     'Splanet' => 30, 'TheRest' => 22);
    // shortest days 
-   echo " the number of days in the shortest month :";
+   echo " the number of days in the shortest month : ";
 $min = min(array_values($monthDays));
 echo ($min);
 echo "<br>";
 echo "<br>";
-echo "prints the name of the shortest month :";
+echo "prints the name of the shortest month : ";
 $min_month = array_search ($min, $monthDays);
 echo ($min_month);
 
