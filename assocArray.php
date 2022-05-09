@@ -14,6 +14,10 @@
     'July' => 31, 'August' => 31,
     'September' => 30, 'October' => 31,
     'November' => 30, 'December' => 31);
+    foreach ($monthDays as $item => $days) {
+        echo $item . ":" . $days;
+        echo "<br>";
+     }
     ?>
 
 </body>
