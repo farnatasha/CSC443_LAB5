@@ -14,7 +14,7 @@
     for($i=0; $i<=11;$i++) {
         sort ($month);
         echo $month[$i];
-        echo "<br>";
+        
 
 echo "\n";
 
