@@ -18,6 +18,12 @@
         echo $item . ":" . $days;
         echo "<br>";
      }
+     foreach ($monthDays as $item => $days) {
+         if ($days == 30) {
+        echo $item;
+        echo "<br>";
+         }
+     }
     ?>
 
 </body>
