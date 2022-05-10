@@ -18,11 +18,13 @@
         echo $item . ":" . $days;
         echo "<br>";
      }
-     
+     echo "<br>";
+     echo "<br>";
      echo "All the months with 30 day: ";
      foreach ($monthDays as $item => $days) {
          
          if ($days == 30) {
+        echo "<br>";   
         echo $item;
         echo "<br>";
         
