@@ -26,7 +26,7 @@
          if ($days == 30) {
         echo "<br>";   
         echo $item;
-        echo "<br>";
+       
         
          }
      }
